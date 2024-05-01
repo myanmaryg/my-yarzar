@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html>
-
 <body>
 
- <div>
+<h2>HTML Forms</h2>
 
-  <div>
-   This is the testing div text
-  </div>
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
 
-  <img src="natural.jpg">
-  <a href="#"> Link</a>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
-  <table>
-   <tr>
-    <th>Place</th>
-    <th>Age</th>
-   </tr>
-   <tr>
-    <td>Tamilnadu</td>
-    <td>20</td>
-   </tr>
-  </table>
-
- </div>
-
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
 </body>
-
 </html>
