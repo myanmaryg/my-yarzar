@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <style>
+  .lnk_cls:link {
+   color: #000000;
+  }
+  /* selected link */
+  
+  .lnk_cls:active {
+   color: red;
+  }
+  /* mouse over link */
+  
+  .lnk_cls:hover {
+   color: green;
+  }
+  /* visited link */
+  
+  .lnk_cls:visited {
+   color: blue;
+  }
+ </style>
+
+</head>
+
+<body>
+ <a class="lnk_cls" href="#">Test Link</a>
+</body>
+
+</html>
